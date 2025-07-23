@@ -8,6 +8,10 @@ env:
 	cp .env $(FRONTEND_DIR)/.env
 	cp .env $(BACKEND_DIR)/.env
 
+install:
+	cd $(FRONTEND_DIR) && npm install
+	cd $(BACKEND_DIR) && npm install
+
 frontend:
 	cd $(FRONTEND_DIR) && npm run dev &
 
