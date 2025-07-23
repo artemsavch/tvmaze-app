@@ -1,8 +1,5 @@
 # TVMaze App (Adaptiq home assigment)
 
-## Demo
-[![Demo](https://www.youtube.com/watch?v=HNwcDL_rutg&ab_channel=ArtemSavchenko)]
-
 ## Project structure
 
 ```
