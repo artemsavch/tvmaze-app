@@ -3,7 +3,7 @@
 import {Show} from "@/lib/types";
 
 interface Props {
-    show: Show;
+    show: Show | null;
     onClose: () => void;
 }
 
