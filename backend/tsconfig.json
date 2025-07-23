@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "module": "CommonJS",
+    "noUncheckedIndexedAccess": false,
+    "types": ["node", "jest"],
+    "baseUrl": ".",
+    "lib": ["es2022"],
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+    "strict": true,
+    "target": "es2022",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+  },
+  "include": ["src", "__test__"],
+  "exclude": ["node_modules"]
+}
