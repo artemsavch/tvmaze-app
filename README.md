@@ -1,6 +1,9 @@
 # TVMaze App (Adaptiq home assigment)
 
-## 📁 Project structure
+## Demo
+
+
+## Project structure
 
 ```
 tvmaze-app/
